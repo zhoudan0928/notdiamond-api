@@ -5,10 +5,5 @@
       "memory": 1024,
       "maxDuration": 60
     }
-  },
-  "env": {
-    "AUTH_CREDENTIALS": "@AUTH_CREDENTIALS",
-    "AUTH_ENABLED": "true",
-    "AUTH_VALUE": "@AUTH_VALUE"
   }
 }
