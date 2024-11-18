@@ -296,10 +296,6 @@ async function createHeaders() {
     });
 }
 
-addEventListener("fetch", (event) => {
-    handleRequest(event);
-});
-
 module.exports = async (request, response) => {
     console.log("Request URL:", request.url);
     const url = new URL(request.url);
