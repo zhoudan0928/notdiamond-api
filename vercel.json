@@ -1,7 +1,12 @@
 {
   "functions": {
-    "api/*.js": {
-      "runtime": "nodejs16.x"
+    "api/completions.js": {
+      "runtime": "nodejs16.x" // 或你使用的 Node.js 版本
     }
+  },
+  "env": {
+    "AUTH_CREDENTIALS": "@AUTH_CREDENTIALS",
+    "AUTH_ENABLED": "true",
+    "AUTH_VALUE": "@AUTH_VALUE"
   }
 }
