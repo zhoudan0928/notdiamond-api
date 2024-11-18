@@ -1,3 +1,7 @@
+import { fetch } from 'undici'; // 或其他 Node.js fetch 实现
+import { TransformStream } from 'web-streams-polyfill/ponyfill';
+
+
 // src/model.js
 var MODEL_INFO = {
     "gpt-4o": {
