@@ -1,0 +1,13 @@
+{
+    "functions": {
+      "api/*.js": {
+        "memory": 1024, 
+        "maxDuration": 60 
+      }
+    },
+    "env": {
+      "AUTH_CREDENTIALS": "", 
+      "AUTH_ENABLED": "", 
+      "AUTH_VALUE": "" 
+    }
+  }
