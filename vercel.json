@@ -1,14 +1,14 @@
 {
   "functions": {
     "api/completions.js": {
-      "runtime": "nodejs20.x", // 或你使用的 Node.js 版本
-      "memory": 1024, // 根据需要调整内存大小
-      "maxDuration": 60 // 根据需要调整最大执行时间
+      "runtime": "nodejs20.x",
+      "memory": 1024,
+      "maxDuration": 60
     }
   },
   "env": {
-    "AUTH_CREDENTIALS": "@", // 你的AUTH_CREDENTIALS，用@占位，稍后在Vercel配置
-    "AUTH_ENABLED": "true", // 你的AUTH_ENABLED
-    "AUTH_VALUE": "@" // 你的AUTH_VALUE，用@占位，稍后在Vercel配置
+    "AUTH_CREDENTIALS": "@",
+    "AUTH_ENABLED": "true",
+    "AUTH_VALUE": "@"
   }
 }
